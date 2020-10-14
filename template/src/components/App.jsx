@@ -11,7 +11,7 @@ const App = () => {
           fontSize: '20px',
           marginTop: '60px',
         }}>
-        <h1 style={{ boxShadow: '10px 10px 40px #999999' }}>
+        <h1>
           <span
             style={{
               backgroundColor: '#1d1d1d',
