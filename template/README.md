@@ -1,4 +1,4 @@
-<img align="center" src="https://raw.githubusercontent.com/timmybytes/timmybytes-template/main/timmybytes.png">
+<img align="center" src="https://raw.githubusercontent.com/timmybytes/timmybytes-template/main/timmbytes-header.png">
 
 ## About
 
