@@ -1,7 +1,14 @@
 import React from 'react';
 
 const App = () => {
-  return <div></div>;
+  return (
+    <>
+      <h1>
+        <span className='logo'>timmybytes</span> Custom React
+        Template
+      </h1>
+    </>
+  );
 };
 
 export default App;

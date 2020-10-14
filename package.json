@@ -1,5 +1,5 @@
 {
-  "name": "timmy-app-template",
+  "name": "timmybytes-template",
   "version": "1.0.0",
   "keywords": [
     "react",
@@ -10,7 +10,7 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timmybytes/timmy-app-template",
+    "url": "https://github.com/timmybytes/timmybytes-template",
     "directory": "packages/cra-template"
   },
   "license": "MIT",
