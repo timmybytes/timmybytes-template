@@ -1,0 +1,80 @@
+# Create-React-App Custom Template
+
+This is a custom template for `create-react-app` that removes much of the typically unneeded boilerplate and adds a **[SPLATE](https://github.com/timmybytes/splate)** SCSS directory tree.
+
+This template removes the following:
+
+- `README` boilerplate text
+- `public/favicon.ico`
+- `public/logo192.png`
+- `public/logo512.png`
+- `public/robots.txt`
+- `public/manifest.json`
+- `public/index.html` boilerplate and extraneous links
+- `src/App.css`
+- `src/App.js`
+- `src/App.test.js`
+- `src/index.css`
+- `src/logo.svg`
+- `src/logo.serviceWorker.js`
+- `src/logo.setupTests.js`
+- `src/index.js` boilerplate and extraneous imports
+
+This template adds the following:
+
+- `src/index.js` parent element set to Fragment
+- `src/components` directory, with default `App.jsx` and ES6 syntax
+- `src/scss` directory tree based on **[SPLATE](https://github.com/timmybytes/splate)**
+
+```bash
+src/scss
+├── components
+│   ├── _buttons.scss
+│   ├── _links.scss
+│   ├── _media.scss
+│   └── _menu.scss
+├── config
+│   ├── _resets.scss
+│   └── _shame.scss
+├── imported
+│   └── _vendor-resets.scss
+├── layout
+│   ├── _footer.scss
+│   ├── _grid.scss
+│   ├── _header.scss
+│   ├── _layout.scss
+│   └── _navbar.scss
+├── main.scss
+├── meta
+│   ├── _functions.scss
+│   ├── _mixins.scss
+│   └── _variables.scss
+├── pages
+│   ├── _about.scss
+│   ├── _contact.scss
+│   └── _home.scss
+└── theme
+    ├── _colors.scss
+    ├── _sizing.scss
+    └── _typography.scss
+```
+
+- `src/main.css` generated from SCSS
+
+
+---
+When creating custom `create-react-app` templates, the following are required for the base structure:
+
+```bash
+cra-template-[template-name]/
+  README.md (for npm)
+  template.json
+  package.json
+  template/
+    README.md (for projects created from this template)
+    gitignore
+    public/
+      index.html
+    src/
+      index.js (or index.tsx)
+```
