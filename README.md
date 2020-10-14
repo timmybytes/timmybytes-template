@@ -64,7 +64,12 @@ This template **adds** the following:
 - `src/main.css` generated from SCSS
 
 ## Installation
-<!-- Add npm instructions here after template deployment -->
+
+To set up a new React project with this template, use `create-react-app` with the specified template.
+
+```bash
+npx create-react-app [name-of-your-app] --template timmybytes-template
+```
 
 _Note:_ I use this template with [VS Code](https://code.visualstudio.com/) and the [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) extension, and use a few simple local settings in `.vscode/` as a result. If you're planning to use a different editor or to compile your SASS another way, you can delete the `.vscode/` directory and/or uncomment it in `.gitignore`.
 
