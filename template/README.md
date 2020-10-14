@@ -1,6 +1,8 @@
-# Create-React-App Custom Template
+# Timmy-App Custom React Template
 
-This is a custom template for `create-react-app` that removes much of the typically unneeded boilerplate and adds a **[SPLATE](https://github.com/timmybytes/splate)** SCSS directory tree.
+This is a custom template for `create-react-app` that removes much of the typically unneeded boilerplate and adds a **[SPLATE](https://github.com/timmybytes/splate)** directory tree for styling with Sass.
+
+## About
 
 This template removes the following:
 
@@ -61,20 +63,8 @@ src/scss
 
 - `src/main.css` generated from SCSS
 
+_Note:_ I use this template with [VS Code](https://code.visualstudio.com/) and the [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) extension, and use a few simple local settings in `.vscode/` as a result. If you're planning to use a different editor or to compile your SASS another way, you can delete the `.vscode/` directory and/or uncomment it in `.gitignore`.
 
----
-When creating custom `create-react-app` templates, the following are required for the base structure:
+## License
 
-```bash
-cra-template-[template-name]/
-  README.md (for npm)
-  template.json
-  package.json
-  template/
-    README.md (for projects created from this template)
-    gitignore
-    public/
-      index.html
-    src/
-      index.js (or index.tsx)
-```
+This project is licensed under an MIT License.
