@@ -1,9 +1,7 @@
-<div style="display: flex; justify-content: center; align-items: center; font-size: 20px">
-  <h1 style="box-shadow: 10px 10px 40px #1d1d1d"><span style="background-color: #1d1d1d; color: #ee6868; font-weight: 800; padding: 20px; border-radius: 3px 0 0 3px; font-style: italic">timmybytes</span><span style="display: inline; background-color: #ee6868; color: #1d1d1d; margin-bottom: 10px; padding: 20px; border-radius: 0 3px 3px 0">template</span> </h1>
-</div>
-
+<img align="center" src="../timmybytes.png">
 
 ## About
+
 This is a custom template for [create-react-app](https://create-react-app.dev/docs/custom-templates/) that removes much of the typically unneeded boilerplate, and adds a [SPLATE](https://github.com/timmybytes/splate) directory tree for styling with Sass.
 
 This template removes the following:
