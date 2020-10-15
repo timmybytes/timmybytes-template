@@ -3,6 +3,7 @@ import React from 'react';
 const App = () => {
   return (
     <>
+      {/* BOILERPLATE - TIMMYBYTES HEADER */}
       <div
         style={{
           display: 'flex',
