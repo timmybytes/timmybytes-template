@@ -9,8 +9,8 @@ on:
 jobs:
   release:
     name: 🚀 publish
+    if: "contains(github.event.head_commit.message, 'deploy')"
     runs-on: ubuntu-latest
-    if: "contains(github.event.head_commit.message, '[deploy]')"
     steps:
       - name: 📚 checkout
         uses: actions/checkout@v2.3.3
