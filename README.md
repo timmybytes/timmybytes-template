@@ -96,3 +96,5 @@ cra-template-[template-name]/
 ```
 
 To learn more about custom templates, read the [documentation](https://create-react-app.dev/docs/custom-templates/).
+
+### To Do
