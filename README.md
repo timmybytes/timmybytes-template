@@ -1,5 +1,13 @@
 <img align="center" src="https://raw.githubusercontent.com/timmybytes/timmybytes-template/main/timmbytes-header.png">
 
+<p align="center">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/timmybytes/timmybytes-template">
+  <img alt="npm" src="https://img.shields.io/npm/dt/cra-template-timmybytes-template">
+  <img alt="Snyk Vulnerabilities for npm package" src="https://img.shields.io/snyk/vulnerabilities/npm/cra-template-timmybytes-template">
+  <img alt="NPM" src="https://img.shields.io/npm/l/cra-template-timmybytes-template">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/timmybytes/timmybytes-template">
+</p>
+
 ## About
 
 This is a custom template for [create-react-app](https://create-react-app.dev/docs/custom-templates/) that removes much of the typically unneeded boilerplate, and adds a [SPLATE](https://github.com/timmybytes/splate) directory tree for styling with Sass.
