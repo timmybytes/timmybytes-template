@@ -1,3 +1,7 @@
+# Timmybytes Template
+
+Custom `create-react-app` template
+
 <img align="center" src="https://raw.githubusercontent.com/timmybytes/timmybytes-template/main/timmbytes-header.png">
 
 <p align="center">
