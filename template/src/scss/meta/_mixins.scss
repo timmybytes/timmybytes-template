@@ -1,6 +1,9 @@
-// Breakpoints - via Hugo Giraudel
+// Breakpoints - via Hugo Giraudel with some remixes
 
 $breakpoints: (
+  'tiny': (
+    min-width: 320px,
+  ),
   'small': (
     min-width: 767px,
   ),

@@ -1,14 +1,16 @@
 {
   "name": "cra-template-timmybytes-template",
   "author": "Timothy Merritt",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "keywords": [
     "react",
     "create-react-app",
     "template",
-    "cra"
+    "cra",
+    "sass",
+    "scss"
   ],
-  "description": "My personal custom template for create-react-app.",
+  "description": "A custom create-react-template",
   "main": "template.json",
   "repository": {
     "type": "git",

@@ -1,30 +1,104 @@
-/// Import base config options first
-@import './config/resets';
-@import './config/shame';
+// /// Import base config options first
+// @import './config/resets';
+// @import './config/shame';
 
-@import './meta/variables';
-@import './meta/functions';
-@import './meta/mixins';
+// @import './meta/variables';
+// @import './meta/functions';
+// @import './meta/mixins';
 
-@import './theme/colors';
-@import './theme/sizing';
-@import './theme/typography';
+// @import './theme/colors';
+// @import './theme/sizing';
+// @import './theme/typography';
 
-/// Optional libraries (Bootstrap, etc.)
-// @import './imported/vendor-resets';
-// @import './imported/vendors/';
+// /// Optional libraries (Bootstrap, etc.)
+// // @import './imported/vendor-resets';
+// // @import './imported/vendors/';
 
-@import './components/buttons';
-@import './components/links';
-@import './components/media';
-@import './components/menu';
+// @import './components/buttons';
+// @import './components/links';
+// @import './components/media';
+// @import './components/menu';
 
-@import './layout/layout';
-@import './layout/grid';
-@import './layout/navbar';
-@import './layout/header';
-@import './layout/footer';
+// @import './layout/layout';
+// @import './layout/grid';
+// @import './layout/navbar';
+// @import './layout/header';
+// @import './layout/footer';
 
-@import './pages/about';
-@import './pages/home';
-@import './pages/contact';
+// @import './pages/about';
+// @import './pages/home';
+// @import './pages/contact';
+
+// globals
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+// ---------------------------------------
+$pink: #ff90ad;
+$yellow: #ffdf85;
+$blue: #b8dcff;
+$green: #caffbf;
+
+@mixin flex-row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+// ---------------------------------------
+
+.app {
+  display: grid;
+  grid-template-rows: auto, 1fr, auto;
+  grid-template:
+    [row1-start] 'header header header' 10vh [row1-end]
+    [row2-start] 'main main main' 85vh [row2-end]
+    [row3-start] 'footer footer footer' 5vh [row3-end]
+    / auto 50px auto;
+}
+
+.header {
+  @include flex-row();
+  background: $pink;
+  grid-area: header;
+}
+
+.main {
+  @include flex-col();
+  background: $blue;
+  grid-area: main;
+  &__example-copy {
+    max-width: 65ch;
+    p {
+      padding: 0.5em 0;
+    }
+  }
+}
+
+.footer {
+  @include flex-row();
+  background: $yellow;
+  grid-area: footer;
+  font-size: 0.8em;
+  font-style: italic;
+  color: rgb(116, 116, 116);
+}
